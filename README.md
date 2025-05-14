@@ -63,5 +63,5 @@ Jasmine Mary P. Ginete	Implemented user authentication features
 Evelyn E. Bangate	Managed deployment and ensured the website’s functionality
 
 🌐 Live Demo
-🔗 Deployed on Vercel: https://viewpoint-sage.vercel.app/
+🔗 Deployed on Vercel: https://group1-ecru.vercel.app/
 
