@@ -71,7 +71,7 @@ export default function ChartsPage() {
     xaxis: {
       categories: ['Users', 'Posts', 'Comments'],
     },
-    colors: ['#3B82F6', '#10B981', '#F59E0B'],
+    colors: ['#ef4444', '#22c55e', '#F59E0B'],
     title: {
       text: 'Platform Statistics',
       align: 'center',
