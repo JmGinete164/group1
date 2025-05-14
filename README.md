@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📌 Web Systems and Technologies Final Project
 
-## Getting Started
+For our final project in **Web Systems and Technologies**, our team created an interactive, fully responsive web application using **Next.js**, **Tailwind CSS**, and **ShadCN UI**.
 
-First, run the development server:
+This project served as a hands-on implementation of our skills in **frontend development**, **API integration**, and **data visualization**. Using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/), we fetched and displayed user, post, and comment data. We enhanced user profiles with **Mapbox** for geographic mapping and integrated **ApexCharts** to visualize application data in real time.
+
+---
+
+## 🛠️ Development Highlights
+
+- **Framework & Styling**: Built using Next.js (App Router) with Tailwind CSS for styling.
+- **UI Components**: Used ShadCN UI to create reusable components like buttons, cards, sidebars, pagination, and charts.
+- **Data Fetching**: Implemented React Query for efficient API data handling.
+- **Maps**: Integrated the Google Maps API via `@react-google-maps/api`.
+- **Data Visualization**: Real-time data rendered using ApexCharts.
+- **Deployment**: Deployed to the web using [Vercel](https://vercel.com/).
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Requirements
+
+- Node.js (v18+)
+- npm (v9+)
+- Git
+
+### 📦 Setup Steps
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Create a new Next.js app
+npx create-next-app@latest webtech-final-project
+cd webtech-final-project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Initialize ShadCN UI
+npx shadcn-ui@latest init
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Add necessary UI components
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add pagination
+npx shadcn-ui@latest add chart
+npx shadcn-ui@latest add sidebar
 
-## Learn More
+# Install additional libraries
+npm install @tanstack/react-query
+npm install apexcharts react-apexcharts
+npm install @react-google-maps/api
 
-To learn more about Next.js, take a look at the following resources:
+npm run dev       # Start development server
+npm run build     # Build the application
+npm start         # Start production server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👥 Team Contributions
+Team Member	Contribution
+Shannel L. Regala	Initiated the project and developed page functionality
+Davilyn E. Genetia	Designed the user interface using Tailwind CSS
+Jasmine Mary P. Ginete	Implemented user authentication features
+Evelyn E. Bangate	Managed deployment and ensured the website’s functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🌐 Live Demo
+🔗 Deployed on Vercel: https://viewpoint-sage.vercel.app/
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
